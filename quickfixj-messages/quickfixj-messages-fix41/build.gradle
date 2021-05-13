@@ -1,0 +1,5 @@
+
+description = 'QuickFIX/J Message classes for FIX 4.1'
+dependencies {
+  compile project(':quickfixj-core')
+}

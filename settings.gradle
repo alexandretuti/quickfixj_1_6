@@ -1,0 +1,42 @@
+rootProject.name = 'quickfixj-parent'
+include ':quickfixj-codegenerator'
+include ':quickfixj-dictgenerator'
+include ':quickfixj-core'
+include ':quickfixj-messages:quickfixj-messages-fix40'
+include ':quickfixj-messages:quickfixj-messages-fix41'
+include ':quickfixj-messages:quickfixj-messages-fix42'
+include ':quickfixj-messages:quickfixj-messages-fix43'
+include ':quickfixj-messages:quickfixj-messages-fix44'
+include ':quickfixj-messages:quickfixj-messages-fix50'
+include ':quickfixj-messages:quickfixj-messages-fix50sp1'
+include ':quickfixj-messages:quickfixj-messages-fix50sp2'
+include ':quickfixj-messages:quickfixj-messages-fixt11'
+include ':quickfixj-messages:quickfixj-messages-all'
+include ':quickfixj-messages'
+include ':quickfixj-examples:quickfixj-examples-executor'
+include ':quickfixj-examples:quickfixj-examples-ordermatch'
+include ':quickfixj-examples:quickfixj-examples-banzai'
+include ':quickfixj-examples'
+include ':quickfixj-all'
+include ':quickfixj-distribution'
+
+project(':quickfixj-codegenerator').projectDir = "$rootDir/quickfixj-codegenerator" as File
+project(':quickfixj-dictgenerator').projectDir = "$rootDir/quickfixj-dictgenerator" as File
+project(':quickfixj-core').projectDir = "$rootDir/quickfixj-core" as File
+project(':quickfixj-messages:quickfixj-messages-fix40').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix40" as File
+project(':quickfixj-messages:quickfixj-messages-fix41').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix41" as File
+project(':quickfixj-messages:quickfixj-messages-fix42').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix42" as File
+project(':quickfixj-messages:quickfixj-messages-fix43').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix43" as File
+project(':quickfixj-messages:quickfixj-messages-fix44').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix44" as File
+project(':quickfixj-messages:quickfixj-messages-fix50').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix50" as File
+project(':quickfixj-messages:quickfixj-messages-fix50sp1').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix50sp1" as File
+project(':quickfixj-messages:quickfixj-messages-fix50sp2').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fix50sp2" as File
+project(':quickfixj-messages:quickfixj-messages-fixt11').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-fixt11" as File
+project(':quickfixj-messages:quickfixj-messages-all').projectDir = "$rootDir/quickfixj-messages/quickfixj-messages-all" as File
+project(':quickfixj-messages').projectDir = "$rootDir/quickfixj-messages" as File
+project(':quickfixj-examples:quickfixj-examples-executor').projectDir = "$rootDir/quickfixj-examples/executor" as File
+project(':quickfixj-examples:quickfixj-examples-ordermatch').projectDir = "$rootDir/quickfixj-examples/ordermatch" as File
+project(':quickfixj-examples:quickfixj-examples-banzai').projectDir = "$rootDir/quickfixj-examples/banzai" as File
+project(':quickfixj-examples').projectDir = "$rootDir/quickfixj-examples" as File
+project(':quickfixj-all').projectDir = "$rootDir/quickfixj-all" as File
+project(':quickfixj-distribution').projectDir = "$rootDir/quickfixj-distribution" as File

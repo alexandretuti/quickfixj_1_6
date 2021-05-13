@@ -1,0 +1,8 @@
+
+description = 'QuickFIX/J All runtime modules'
+dependencies {
+  compile project(':quickfixj-core')
+  compile project(':quickfixj-messages:quickfixj-messages-all')
+  compile project(':quickfixj-codegenerator')
+  compile project(':quickfixj-dictgenerator')
+}
